@@ -33,7 +33,7 @@ node {
 
     stage('Push image') {
         
-        sh 'docker push gcr.io/woven-bonbon-396818/hello:1.21.4'
+        sh 'docker push gcr.io/woven-bonbon-396818/hello:latest'
 
     }
     
